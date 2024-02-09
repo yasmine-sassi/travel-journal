@@ -15,13 +15,13 @@ export default function App() {
   });
 
   return (
-    <div>
+    <div >
       <Navbar />
       <section id="photogallery">
         <PhotoGallery />
       </section>
       <section id="places" className="places-list">{places}</section>
-      <section className='map-section' id='map'>
+      <section className='map-section container' id='map'>
         <h3 className='map-title'>In case you wanted a clearer view !</h3>
         <Map />
       </section>
