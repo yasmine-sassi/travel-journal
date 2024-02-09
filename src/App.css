@@ -11,6 +11,9 @@
 }
 .nav-title{
   font-style:oblique;
+  font-weight: 800;
+  color:#3a5765;
+  font-size: 2.5rem;
 }
 .navbar {
   width: 100%;
@@ -110,7 +113,15 @@
   max-width: 50rem;
   margin-top: 11px;
 }
-
+.map-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.map-section{
+  display: flex;
+  flex-direction: column;
+}
 @media(max-width:850px){
   .place{
     display:flex;
@@ -118,3 +129,4 @@
     align-items: center;
   }
 }
+

@@ -27,10 +27,13 @@ To run this app locally, follow these steps:
 4. Install react image  gallery by running :
     ```bash
     npm install react-image-gallery
-5. Start the server:
+5. Install Leaflet by running :
+    ```bash
+    npm install react react-dom leaflet react-leaflet
+6. Start the server:
    ```bash
    npm run dev
-6. Open your browser and navigate to  `http://localhost:5173`
+7. Open your browser and navigate to  `http://localhost:5173`
 
 ## Contact
 

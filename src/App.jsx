@@ -5,6 +5,8 @@ import Footer from './components/Footer'
 import Place from './components/Place'
 import data from './Data'
 import PhotoGallery from './components/PhotoGallery'
+import Map from './components/Map'
+import './components/Map.css'
 
 
 export default function App() {
@@ -15,8 +17,14 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <PhotoGallery id="photogallery"/>
+      <section id="photogallery">
+        <PhotoGallery />
+      </section>
       <section id="places" className="places-list">{places}</section>
+      <section className='map-section' id='map'>
+        <h3 className='map-title'>In case you wanted a clearer view !</h3>
+        <Map />
+      </section>
       <Footer />
     </div>
   );
