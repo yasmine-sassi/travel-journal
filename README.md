@@ -37,7 +37,7 @@ To run this app locally, follow these steps:
 
 ## Deployment
 
-This website was deployed using Netlify. You can access it [here](https://explore-tn.netlify.app/)
+This website was deployed using Netlify. You can access it [here](https://main--explore-tun.netlify.app/)
 
 ## Contact
 
