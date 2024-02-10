@@ -21,9 +21,9 @@ export default function App() {
         <PhotoGallery />
       </section>
       <section id="places" className="places-list">{places}</section>
-      <section className='map-section container' id='map'>
-        <h3 className='map-title'>In case you wanted a clearer view !</h3>
-        <Map />
+      <section className='mapc'>
+      <h3 className='map-title'>In case you wanted a clearer view !</h3>
+      <Map />
       </section>
       <Footer />
     </div>

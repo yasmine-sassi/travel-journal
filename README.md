@@ -35,6 +35,10 @@ To run this app locally, follow these steps:
    npm run dev
 7. Open your browser and navigate to  `http://localhost:5173`
 
+## Deployment
+
+This website was deployed using Netlify. You can access it [here](https://explore-tn.netlify.app/)
+
 ## Contact
 
 For any inquiries or feedback, feel free to contact me, the author
